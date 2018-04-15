@@ -4,6 +4,6 @@
   - name: Create a file
     copy:
       src: /tmp/test/sample.txt
-      dst: /tmp/sample.txt
+      dest: /tmp/sample.txt
      
 
