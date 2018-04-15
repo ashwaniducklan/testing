@@ -2,8 +2,8 @@
   hosts: all
   tasks:
   - name: Create a file
-    file:
-      path: /tmp/test/sample.txt
-      state: touch
+    copy:
+      src: /tmp/test/sample.txt
+      dst: /tmp/sample.txt
      
 
