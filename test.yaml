@@ -1,0 +1,9 @@
+- name: Playbook1
+  hosts: all
+  tasks:
+  - name: Create a file
+    file:
+      path: /tmp/test/sample.txt
+      state: touch
+     
+
